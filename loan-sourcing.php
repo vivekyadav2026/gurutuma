@@ -14,91 +14,132 @@ include 'includes/header.php';
     <div class="crumb"><a href="index.php">Home</a> / Loan Sourcing Services</div>
     <h1>Loan Sourcing Services</h1>
     <p>Pre-qualified, verified borrower files — sourced by a feet-on-street and digital network built for your credit policy.</p>
-    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. LS-01 · ACTIVE DESK</div>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. LS-01 · ACTIVE SOURCING DESK</div>
   </div>
 </div>
 
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
-      <p style="font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <div class="service-image-panel">
+        <img src="assets/images/loan-sourcing.png" alt="Pre-qualified loan sourcing application analysis" loading="lazy">
+      </div>
+      <p style="font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Growing a loan book means putting more qualified applications in front of your credit team — without lowering the bar on quality. Our loan sourcing desk runs a feet-on-street network alongside digital lead channels, so every file that reaches you has already cleared identity, income and bureau checks.
       </p>
-      <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <p style="margin-top:12px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         We work across personal loans, business loans, loan against property, and secured retail products, adapting our sourcing mix to whichever segment your credit policy targets.
       </p>
-      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
-      <ul class="check-list">
-        <li>Feet-on-street sourcing team across assigned territories</li>
-        <li>Digital lead generation and landing-page management</li>
-        <li>KYC document collection and initial screening</li>
-        <li>Credit-bureau pull and eligibility pre-check</li>
-        <li>Field verification of address and employment</li>
-        <li>Clean, disbursement-ready file handover with full audit trail</li>
-      </ul>
+
+      <div class="eyebrow" style="margin-top:24px;">Sourcing Capabilities</div>
+      <div class="about-feature-grid">
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Feet-On-Street Territory Sourcing</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Digital Lead Generation &amp; Screening</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> KYC Document Verification</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Credit Bureau Pre-Eligibility Pull</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Address &amp; Employment Field Verification</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Clean Disbursement-Ready File Handover</div>
+      </div>
     </div>
-    <div class="reveal panel">
-      <div class="eyebrow">At a Glance</div>
-      <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Avg. Turnaround</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">5–7 working days, lead to file handover</div>
+
+    <!-- Dark Executive Card for Particulars -->
+    <div class="reveal">
+      <div class="about-details-card">
+        <div class="eyebrow on-dark" style="margin-bottom:10px;">Desk Specifications</div>
+        <div class="about-details-row">
+          <div class="about-details-item">
+            <div class="about-details-label">Avg. Turnaround SLA</div>
+            <div class="about-details-val">5–7 Working Days (Lead to Credit Handover)</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Products Covered</div>
+            <div class="about-details-val">Personal, Business, LAP &amp; Secured Retail Loans</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Geographic Coverage</div>
+            <div class="about-details-val">PAN-India Sourcing Network</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Verification Protocol</div>
+            <div class="about-details-val">100% Pre-Screened &amp; Field Verified</div>
+          </div>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Products Covered</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Personal, Business, LAP, Secured Retail</div>
+        <div style="margin-top:16px;">
+          <span class="stamp-note verified" style="font-size:10px;">● Verified Before Handover</span>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Coverage</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">PAN-India Sourcing Network</div>
-        </div>
-        <span class="stamp-note verified">● Verified Before Handover</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- PIPELINE WORKFLOW -->
 <section class="section-dark">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="eyebrow on-dark">Sourcing Workflow</div>
+      <div class="eyebrow on-dark">Sourcing Pipeline</div>
       <h2>From first contact to file handover</h2>
+      <p>A structured 5-stage sourcing process designed to minimize credit rejections.</p>
     </div>
-    <div class="process-track reveal">
-      <div class="process-step" style="background:var(--ink-card); border-color:var(--ink-line);">
-        <span class="step-num">01</span>
+    
+    <div class="process-pipeline-grid reveal">
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">01</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 01</span>
+        </div>
         <h4 style="color:var(--dark-text);">Lead Generation</h4>
-        <p style="color:var(--dark-muted);">Field and digital channels identify prospects matching your target credit profile.</p>
+        <p style="color:var(--dark-muted);">Field and digital channels identify prospects matching target credit criteria.</p>
+        <span class="pipeline-arrow">→</span>
       </div>
-      <div class="process-step" style="background:var(--ink-card); border-color:var(--ink-line);">
-        <span class="step-num">02</span>
-        <h4 style="color:var(--dark-text);">Document Collection</h4>
-        <p style="color:var(--dark-muted);">KYC, income and collateral documents are collected and logged against the case file.</p>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">02</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 02</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Doc Collection</h4>
+        <p style="color:var(--dark-muted);">KYC, income proofs and collateral documents are collected &amp; logged.</p>
+        <span class="pipeline-arrow">→</span>
       </div>
-      <div class="process-step" style="background:var(--ink-card); border-color:var(--ink-line);">
-        <span class="step-num">03</span>
-        <h4 style="color:var(--dark-text);">Bureau &amp; Eligibility Check</h4>
-        <p style="color:var(--dark-muted);">A credit-bureau pull confirms eligibility before the file moves further.</p>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">03</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 03</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Bureau Check</h4>
+        <p style="color:var(--dark-muted);">Credit-bureau pull confirms score eligibility before field movement.</p>
+        <span class="pipeline-arrow">→</span>
       </div>
-      <div class="process-step" style="background:var(--ink-card); border-color:var(--ink-line);">
-        <span class="step-num">04</span>
-        <h4 style="color:var(--dark-text);">Field Verification</h4>
-        <p style="color:var(--dark-muted);">Address and employment are physically verified by a trained field agent.</p>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">04</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 04</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Field Audit</h4>
+        <p style="color:var(--dark-muted);">Address and employment are physically audited by trained field agents.</p>
+        <span class="pipeline-arrow">→</span>
       </div>
-      <div class="process-step" style="background:var(--ink-card); border-color:var(--ink-line);">
-        <span class="step-num">05</span>
-        <h4 style="color:var(--dark-text);">Handover to Credit Team</h4>
-        <p style="color:var(--dark-muted);">The completed file, with full documentation, is handed to your underwriting desk.</p>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">05</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 05</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Credit Handover</h4>
+        <p style="color:var(--dark-muted);">Completed, audited file is delivered to your credit underwriting desk.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- RELATED SERVICES -->
 <section class="section-paper">
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow">Related Services</div>
-      <h2 style="font-size:30px;">Other files in our register</h2>
+      <h2>Other files in our register</h2>
     </div>
     <div class="services-grid reveal">
       <a href="collection-services.php" class="service-card">
@@ -110,6 +151,7 @@ include 'includes/header.php';
         </div>
         <h3>Collection Services</h3>
         <p>Structured tele-calling and follow-up on early and mid-bucket accounts to keep portfolios current.</p>
+        <div><span class="card-badge">0–90 DPD Tele-Calling</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -122,6 +164,7 @@ include 'includes/header.php';
         </div>
         <h3>NPA Collection &amp; Recovery</h3>
         <p>Specialist handling of non-performing accounts, from negotiated settlement to legal-track recovery.</p>
+        <div><span class="card-badge">90+ DPD &amp; Legal Handoff</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -134,19 +177,21 @@ include 'includes/header.php';
         </div>
         <h3>Financial Recovery Solutions</h3>
         <p>Portfolio-level recovery strategy, skip-tracing and settlement structuring for stressed books.</p>
+        <div><span class="card-badge">Skip-Tracing &amp; Strategy</span></div>
         <span class="go">Read the file →</span>
       </a>
     </div>
   </div>
 </section>
 
+<!-- CTA BAND -->
 <div class="cta-band">
   <div class="wrap">
     <div>
-      <h3>Ready to open a file with us?</h3>
-      <p>Talk to a relationship manager about your sourcing or recovery requirement.</p>
+      <h3>Ready to discuss your sourcing requirements?</h3>
+      <p>Connect with our relationship manager to review target borrower criteria.</p>
     </div>
-    <a href="contact.php" class="btn btn-brass">Get in Touch →</a>
+    <a href="contact.php" class="btn btn-brass">Open Sourcing Enquiry →</a>
   </div>
 </div>
 

@@ -21,48 +21,125 @@ include 'includes/header.php';
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
-      <p style="font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <div class="service-image-panel">
+        <img src="assets/images/collection-operations.png" alt="Corporate Tele-calling & Collection Desk Operations" loading="lazy">
+      </div>
+      <p style="font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Most accounts don't need a recovery drive — they need a reliable, well-timed nudge. Our collection desk manages early and mid-bucket follow-up across calls, SMS, email and IVR, keeping accounts current before they ever reach a stressed bucket.
       </p>
-      <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <p style="margin-top:12px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Every call is logged against the account, every promise-to-pay is tracked to its due date, and your team gets a bucket-wise report without having to ask for one.
       </p>
-      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
-      <ul class="check-list">
-        <li>Trained tele-calling desk for 0–30, 31–60 and 61–90 DPD buckets</li>
-        <li>Multi-channel reminders — call, SMS, email and IVR</li>
-        <li>Promise-to-pay tracking and follow-through</li>
-        <li>Call recording and quality monitoring</li>
-        <li>Daily and monthly bucket-movement reporting</li>
-        <li>Escalation handoff to field or legal track when required</li>
-      </ul>
+
+      <div class="eyebrow" style="margin-top:24px;">Collection Desk Features</div>
+      <div class="about-feature-grid">
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> 0–30 DPD Early Bucket Follow-Up</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> 31–60 &amp; 61–90 DPD Tele-Calling</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Multi-Channel Outreach (Call, SMS, Email, IVR)</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Promise-To-Pay (PTP) Automated Tracking</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> 100% Call Recording &amp; Quality Audit</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Daily Bucket-Movement MIS Reports</div>
+      </div>
     </div>
-    <div class="reveal panel">
-      <div class="eyebrow">At a Glance</div>
-      <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Buckets Handled</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">0–30 / 31–60 / 61–90 DPD</div>
+
+    <!-- Dark Executive Registration Card -->
+    <div class="reveal">
+      <div class="about-details-card">
+        <div class="eyebrow on-dark" style="margin-bottom:10px;">Desk Specifications</div>
+        <div class="about-details-row">
+          <div class="about-details-item">
+            <div class="about-details-label">Buckets Handled</div>
+            <div class="about-details-val">0–30 / 31–60 / 61–90 DPD</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Channels &amp; Tech</div>
+            <div class="about-details-val">Predictive Voice, SMS, Email &amp; IVR</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Reporting Cadence</div>
+            <div class="about-details-val">Daily Call Logs &amp; Monthly Bucket MIS</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Compliance Code</div>
+            <div class="about-details-val">RBI Fair Practices &amp; Conduct Guidelines</div>
+          </div>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Channels</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Voice, SMS, Email, IVR</div>
+        <div style="margin-top:16px;">
+          <span class="stamp-note verified" style="font-size:10px;">● RBI Fair Practices Code</span>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Reporting</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Daily call logs, monthly bucket MIS</div>
-        </div>
-        <span class="stamp-note verified">● RBI Fair Practices Code</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- PIPELINE WORKFLOW -->
+<section class="section-dark">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow on-dark">Collection Process</div>
+      <h2>Structured 5-stage tele-collection workflow</h2>
+      <p>How early and mid-bucket delinquent accounts are tracked to payment resolution.</p>
+    </div>
+    
+    <div class="process-pipeline-grid reveal">
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">01</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 01</span>
+        </div>
+        <h4 style="color:var(--dark-text);">File Allocation</h4>
+        <p style="color:var(--dark-muted);">DPD data ingested, segmented by bucket, and allocated to agents.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">02</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 02</span>
+        </div>
+        <h4 style="color:var(--dark-text);">First Contact</h4>
+        <p style="color:var(--dark-muted);">Trained agent initiates polite, compliant tele-call or multi-channel reminder.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">03</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 03</span>
+        </div>
+        <h4 style="color:var(--dark-text);">PTP Agreement</h4>
+        <p style="color:var(--dark-muted);">Promise-To-Pay (PTP) date negotiated and registered in tracking software.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">04</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 04</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Follow-Through</h4>
+        <p style="color:var(--dark-muted);">Automated SMS/Voice reminders sent 24h prior to promised payment date.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">05</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 05</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Reconciliation</h4>
+        <p style="color:var(--dark-muted);">Payment verified, account normalized, or escalated to field drive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED SERVICES -->
 <section class="section-paper">
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow">Related Services</div>
-      <h2 style="font-size:30px;">Other files in our register</h2>
+      <h2>Other files in our register</h2>
     </div>
     <div class="services-grid reveal">
       <a href="loan-sourcing.php" class="service-card">
@@ -74,6 +151,7 @@ include 'includes/header.php';
         </div>
         <h3>Loan Sourcing Services</h3>
         <p>Feet-on-street and digital sourcing of pre-qualified borrowers, verified end-to-end before the file reaches you.</p>
+        <div><span class="card-badge">Feet-On-Street &amp; Digital</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -86,6 +164,7 @@ include 'includes/header.php';
         </div>
         <h3>NPA Collection &amp; Recovery</h3>
         <p>Specialist handling of non-performing accounts, from negotiated settlement to legal-track recovery.</p>
+        <div><span class="card-badge">90+ DPD &amp; Legal Handoff</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -98,19 +177,21 @@ include 'includes/header.php';
         </div>
         <h3>Financial Recovery Solutions</h3>
         <p>Portfolio-level recovery strategy, skip-tracing and settlement structuring for stressed books.</p>
+        <div><span class="card-badge">Skip-Tracing &amp; Strategy</span></div>
         <span class="go">Read the file →</span>
       </a>
     </div>
   </div>
 </section>
 
+<!-- CTA BAND -->
 <div class="cta-band">
   <div class="wrap">
     <div>
-      <h3>Ready to open a file with us?</h3>
-      <p>Talk to a relationship manager about your sourcing or recovery requirement.</p>
+      <h3>Ready to discuss your collection requirements?</h3>
+      <p>Talk to a relationship manager about early and mid-bucket tele-calling desking.</p>
     </div>
-    <a href="contact.php" class="btn btn-brass">Get in Touch →</a>
+    <a href="contact.php" class="btn btn-brass">Open Collection Desk Enquiry →</a>
   </div>
 </div>
 

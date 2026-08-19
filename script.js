@@ -1,6 +1,18 @@
-// Gurutma Financial Services — shared behavior
+// Gurutma Financial Services — shared behavior & sticky nav positioning
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Sticky Navbar Dynamic Body Offset (Announcement Banner stays non-sticky below navbar)
+  const stickyNav = document.querySelector('.sticky-nav-wrapper');
+  function adjustStickySpacing() {
+    if (stickyNav) {
+      const height = stickyNav.offsetHeight;
+      document.body.style.paddingTop = height + 'px';
+    }
+  }
+  adjustStickySpacing();
+  window.addEventListener('resize', adjustStickySpacing);
+  setTimeout(adjustStickySpacing, 200);
+
   // Mobile nav toggle
   const toggle = document.querySelector('.nav-toggle');
   const links = document.querySelector('.nav-links');
@@ -17,25 +29,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Announcement Banner Slider Carousel (Universal)
   const slides = document.querySelectorAll('.banner-slide');
-  const dotsWrap = document.getElementById('bannerDots');
-  if (slides.length && dotsWrap) {
+  const dots = document.querySelectorAll('.banner-dots button');
+  if (slides.length) {
     let idx = 0;
-    dotsWrap.innerHTML = '';
-    slides.forEach((_, i) => {
-      const d = document.createElement('button');
-      d.setAttribute('aria-label', 'Show notice ' + (i+1));
-      if (i === 0) d.classList.add('active');
-      d.addEventListener('click', () => show(i));
-      dotsWrap.appendChild(d);
-    });
-
     function show(n) {
       slides[idx].classList.remove('is-active');
-      if (dotsWrap.children[idx]) dotsWrap.children[idx].classList.remove('active');
+      if (dots[idx]) dots[idx].classList.remove('active');
       idx = (n + slides.length) % slides.length;
       slides[idx].classList.add('is-active');
-      if (dotsWrap.children[idx]) dotsWrap.children[idx].classList.add('active');
+      if (dots[idx]) dots[idx].classList.add('active');
     }
+
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => show(i));
+    });
 
     setInterval(() => show(idx + 1), 4500);
   }

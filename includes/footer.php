@@ -4,13 +4,14 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.php" class="brand">
-          <span class="brand-mark">G</span>
+          <img src="assets/images/logo.png" alt="Gurutma Financial Services Logo" style="height:44px; width:auto; border-radius:4px; background:#ffffff; padding:2px; box-shadow:0 2px 8px rgba(0,0,0,0.15);">
           <span class="brand-text">
             <span class="brand-name" style="color:var(--dark-text);"><?php echo COMPANY_SHORT; ?></span>
             <span class="brand-tag"><?php echo COMPANY_TAGLINE; ?></span>
           </span>
         </a>
         <p>Trusted partner for loan sourcing, tele-collections, NPA recovery, and field collection services across India — operated with strict compliance and documented transparency.</p>
+        <p style="font-size:12px; color:var(--brass); margin-top:8px; font-family:var(--mono);">Reg Date: <?php echo REGISTRATION_DATE; ?></p>
         <div class="social-row">
           <a href="<?php echo LINKEDIN_URL; ?>" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
@@ -38,7 +39,7 @@
 
       <div class="footer-col">
         <h5>Quick Links</h5>
-        <a href="index.php#about">About the Firm</a>
+        <a href="about.php">About the Firm</a>
         <a href="index.php#services">Service Register</a>
         <a href="index.php#process">Process Workflow</a>
         <a href="contact.php">File an Enquiry</a>
@@ -51,6 +52,9 @@
         <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" class="footer-wa-link">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg> Chat on WhatsApp
         </a>
+        <div style="font-size:12px; color:var(--dark-muted); margin-top:10px; line-height:1.4;">
+          <?php echo OFFICE_ADDRESS; ?>
+        </div>
       </div>
     </div>
 
@@ -59,16 +63,16 @@
         © <span id="year"><?php echo date('Y'); ?></span> <?php echo COMPANY_NAME; ?> All rights reserved.
       </div>
       <div class="footer-by">
-        Official Registered Financial Services Desk · <?php echo RBI_COMPLIANT_TEXT; ?>
+        Registered Entity · Est. <?php echo COMPANY_ESTABLISHED; ?>
       </div>
     </div>
   </div>
 </footer>
 
 <!-- Floating WhatsApp Action Button -->
-<a class="wa-float" href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp" title="Chat on WhatsApp">
+<a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" class="wa-float" title="Chat with Gurutma Desk on WhatsApp" aria-label="Chat on WhatsApp">
   <span class="wa-pulse"></span>
-  <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18zm4.47-6.13c-.24-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.24-.63.8-.78.97-.14.16-.28.18-.53.06-.24-.12-1.03-.38-1.96-1.21-.72-.65-1.21-1.44-1.36-1.68-.14-.24-.02-.37.11-.5.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.42-.55-.42-.14 0-.3-.02-.46-.02s-.42.06-.64.3c-.22.24-.85.83-.85 2.03 0 1.2.87 2.35.99 2.51.12.16 1.7 2.6 4.13 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28z"/></svg>
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg>
 </a>
 
 <script src="script.js"></script>

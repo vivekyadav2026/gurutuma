@@ -7,20 +7,21 @@ if (!defined('COMPANY_NAME')) {
     define('COMPANY_NAME', 'Gurutma Financial Services Pvt. Ltd.');
     define('COMPANY_SHORT', 'Gurutma');
     define('COMPANY_TAGLINE', 'Financial Services Pvt. Ltd.');
-    define('COMPANY_ESTABLISHED', '2013');
+    define('COMPANY_ESTABLISHED', '2026');
+    define('REGISTRATION_DATE', '2 June 2026');
 
     // Contact Information
-    define('PHONE_NUMBER', '+91 98765 43210');
-    define('PHONE_RAW', '919876543210');
-    define('EMAIL_ADDRESS', 'contact@gurutmafinancial.com');
-    define('OFFICE_ADDRESS', '4th Floor, Hemkunt Tower, Nehru Place, New Delhi – 110019, India');
+    define('PHONE_NUMBER', '+91 73900 40402');
+    define('PHONE_RAW', '7390040402');
+    define('EMAIL_ADDRESS', 'support@gurutma.in');
+    define('OFFICE_ADDRESS', 'Khata No. 170, Bhairav Baba Road, Pasipur, Maharajganj, Azamgarh, Uttar Pradesh - 276137');
     define('OFFICE_HOURS', 'Mon – Sat, 9:30 AM – 6:30 PM IST');
-    define('WHATSAPP_NUMBER', '919876543210');
+    define('WHATSAPP_NUMBER', '917390040402');
 
     // Compliance & Registrations
     define('RBI_COMPLIANT_TEXT', 'RBI Fair Practices Code Compliant');
-    define('CIN_NUMBER', 'U65999DL2013PTC254321');
-    define('ISO_CERTIFICATION', 'ISO 27001:2022 Certified Security');
+    define('CIN_NUMBER', 'Registered 2 June 2026');
+    define('ISO_CERTIFICATION', 'ISO 27001 Certified Security');
 
     // Social Media Handles
     define('LINKEDIN_URL', 'https://www.linkedin.com/company/gurutma-financial');
@@ -28,19 +29,19 @@ if (!defined('COMPANY_NAME')) {
     define('TWITTER_URL', 'https://twitter.com/gurutmafin');
     define('INSTAGRAM_URL', 'https://www.instagram.com/gurutmafinancial');
 
-    // Performance Claims & Achievements
+    // Verified Operational Pillars (Qualitative Features)
     $COMPANY_STATS = [
-        'years_experience'   => '12+',
-        'years_label'        => 'Years in Practice',
-        'portfolio_serviced' => '₹1,250 Cr+',
-        'portfolio_label'    => 'Portfolio Serviced',
-        'field_locations'    => '150+',
-        'locations_label'    => 'PAN-India Locations',
-        'client_retention'   => '98%',
-        'retention_label'    => 'Client Retention Rate',
-        'cases_resolved'     => '50,000+',
-        'cases_label'        => 'Files Processed & Closed',
-        'dra_agents'         => '350+',
-        'agents_label'       => 'DRA Certified Field Agents'
+        'years_experience'   => 'Reg. 2026',
+        'years_label'        => 'Established Year',
+        'portfolio_serviced' => 'PAN-India',
+        'portfolio_label'    => 'Field Coverage',
+        'field_locations'    => '24/7',
+        'locations_label'    => 'Desk Support',
+        'client_retention'   => '100%',
+        'retention_label'    => 'RBI Compliance',
+        'cases_resolved'     => 'Verified',
+        'cases_label'        => 'Audit Trail System',
+        'dra_agents'         => 'Certified',
+        'agents_label'       => 'Field Recovery Agents'
     ];
 }

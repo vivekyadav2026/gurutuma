@@ -14,55 +14,132 @@ include 'includes/header.php';
     <div class="crumb"><a href="index.php">Home</a> / Financial Recovery Solutions</div>
     <h1>Financial Recovery Solutions</h1>
     <p>Portfolio-level strategy for stressed books — segmentation, skip-tracing and settlement structuring, not one-size-fits-all calling.</p>
-    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. FRS-04 · ACTIVE DESK</div>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. FRS-04 · ACTIVE STRATEGY DESK</div>
   </div>
 </div>
 
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
-      <p style="font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <div class="service-image-panel">
+        <img src="assets/images/recovery-solutions.png" alt="Portfolio Financial Recovery Analytics &amp; Strategy" loading="lazy">
+      </div>
+      <p style="font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Sometimes the problem isn't one account — it's a portfolio. We take on bulk stressed books and build a recovery strategy around bucket, geography and borrower profile, rather than working every file the same way.
       </p>
-      <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <p style="margin-top:12px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         That includes skip-tracing borrowers who've become unreachable, structuring settlement offers your team can approve quickly, and giving you a clear view of which segments of the book are worth pursuing versus writing off.
       </p>
-      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
-      <ul class="check-list">
-        <li>Portfolio segmentation and recovery-priority scoring</li>
-        <li>Skip-tracing for untraceable or relocated borrowers</li>
-        <li>Settlement structuring aligned to your approval matrix</li>
-        <li>Recovery-rate benchmarking against industry norms</li>
-        <li>Write-off recommendation reports for board reporting</li>
-        <li>Project-basis or ongoing engagement models</li>
-      </ul>
+
+      <div class="eyebrow" style="margin-top:24px;">Solution Capabilities</div>
+      <div class="about-feature-grid">
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Portfolio Segmentation &amp; Priority Scoring</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Skip-Tracing for Untraceable Borrowers</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Pre-Approved Settlement Structuring</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Recovery-Rate Industry Benchmarking</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Board-Ready Write-Off Recommendation MIS</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Project-Basis or Ongoing Retainer Desks</div>
+      </div>
     </div>
-    <div class="reveal panel">
-      <div class="eyebrow">At a Glance</div>
-      <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Best For</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Bulk stressed portfolios, write-off drives</div>
+
+    <!-- Dark Executive Registration Card -->
+    <div class="reveal">
+      <div class="about-details-card">
+        <div class="eyebrow on-dark" style="margin-bottom:10px;">Desk Specifications</div>
+        <div class="about-details-row">
+          <div class="about-details-item">
+            <div class="about-details-label">Best Suited For</div>
+            <div class="about-details-val">Bulk Stressed Portfolios &amp; Written-Off Books</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Engagement Models</div>
+            <div class="about-details-val">Project-Basis Drives or Monthly Retainers</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Core Deliverables</div>
+            <div class="about-details-val">Segmented Strategy + Real-Time Recovery MIS</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Skip-Tracing Tech</div>
+            <div class="about-details-val">Digital &amp; Field Intelligence Network</div>
+          </div>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Engagement</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Project-basis or ongoing retainer</div>
+        <div style="margin-top:16px;">
+          <span class="stamp-note verified" style="font-size:10px;">● Portfolio-Level Reporting</span>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Deliverable</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Segmented strategy + monthly recovery MIS</div>
-        </div>
-        <span class="stamp-note verified">● Portfolio-Level Reporting</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- PIPELINE WORKFLOW -->
+<section class="section-dark">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow on-dark">Recovery Strategy Pipeline</div>
+      <h2>How bulk stressed portfolios are normalized</h2>
+      <p>5-stage analytical and field strategy for high-yield portfolio recovery.</p>
+    </div>
+    
+    <div class="process-pipeline-grid reveal">
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">01</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 01</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Book Analysis</h4>
+        <p style="color:var(--dark-muted);">Stressed loan book ingested and segmented by DPD, geography &amp; balance.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">02</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 02</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Skip-Tracing</h4>
+        <p style="color:var(--dark-muted);">Address, phone, and employer databases refreshed for non-contactable accounts.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">03</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 03</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Settlement Matrix</h4>
+        <p style="color:var(--dark-muted);">Custom settlement matrices configured matching bank credit approval thresholds.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">04</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 04</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Targeted Drive</h4>
+        <p style="color:var(--dark-muted);">Synchronized tele-calling and doorstep agent drives deployed across regions.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">05</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 05</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Board MIS Audit</h4>
+        <p style="color:var(--dark-muted);">Reconciliation report, recovered capital, and write-off audit delivered.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED SERVICES -->
 <section class="section-paper">
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow">Related Services</div>
-      <h2 style="font-size:30px;">Other files in our register</h2>
+      <h2>Other files in our register</h2>
     </div>
     <div class="services-grid reveal">
       <a href="loan-sourcing.php" class="service-card">
@@ -74,6 +151,7 @@ include 'includes/header.php';
         </div>
         <h3>Loan Sourcing Services</h3>
         <p>Feet-on-street and digital sourcing of pre-qualified borrowers, verified end-to-end before the file reaches you.</p>
+        <div><span class="card-badge">Feet-On-Street &amp; Digital</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -86,6 +164,7 @@ include 'includes/header.php';
         </div>
         <h3>Collection Services</h3>
         <p>Structured tele-calling and follow-up on early and mid-bucket accounts to keep portfolios current.</p>
+        <div><span class="card-badge">0–90 DPD Tele-Calling</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -98,19 +177,21 @@ include 'includes/header.php';
         </div>
         <h3>NPA Collection &amp; Recovery</h3>
         <p>Specialist handling of non-performing accounts, from negotiated settlement to legal-track recovery.</p>
+        <div><span class="card-badge">90+ DPD &amp; Legal Handoff</span></div>
         <span class="go">Read the file →</span>
       </a>
     </div>
   </div>
 </section>
 
+<!-- CTA BAND -->
 <div class="cta-band">
   <div class="wrap">
     <div>
-      <h3>Ready to open a file with us?</h3>
-      <p>Talk to a relationship manager about your sourcing or recovery requirement.</p>
+      <h3>Ready to optimize your stressed portfolio recovery?</h3>
+      <p>Connect with a senior strategist to review portfolio recovery options.</p>
     </div>
-    <a href="contact.php" class="btn btn-brass">Get in Touch →</a>
+    <a href="contact.php" class="btn btn-brass">Open Strategy Enquiry →</a>
   </div>
 </div>
 

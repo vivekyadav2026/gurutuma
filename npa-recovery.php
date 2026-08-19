@@ -14,56 +14,133 @@ include 'includes/header.php';
     <div class="crumb"><a href="index.php">Home</a> / NPA Collection &amp; Recovery</div>
     <h1>NPA Collection &amp; Recovery</h1>
     <p>A dedicated case manager for every non-performing account — negotiated settlement first, legal-track recovery when it's the right call.</p>
-    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. NPA-03 · ACTIVE DESK</div>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. NPA-03 · ACTIVE RECOVERY DESK</div>
   </div>
 </div>
 
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
-      <span class="stamp-note">OVERDUE — 90+ DPD</span>
-      <p style="margin-top:22px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <div class="service-image-panel">
+        <img src="assets/images/npa-recovery.png" alt="NPA Financial Recovery Advisory Session" loading="lazy">
+      </div>
+      <div style="margin-bottom:12px;"><span class="stamp-note">OVERDUE — 90+ DPD &amp; STRESSED ACCOUNTS</span></div>
+      <p style="font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Once an account slips into non-performing status, generic follow-up stops working. Our NPA desk takes on stressed accounts with a dedicated case manager, a settlement-first approach, and a coordinated escalation path when a legal-track recovery route becomes necessary.
       </p>
-      <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
+      <p style="margin-top:12px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         We work alongside your empanelled legal counsel where formal recovery routes — including SARFAESI action or DRT proceedings — are the right path, while pursuing negotiated settlement wherever it serves the account faster.
       </p>
-      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
-      <ul class="check-list">
-        <li>Dedicated case manager per NPA account</li>
-        <li>Borrower tracing and contact re-establishment</li>
-        <li>Structured settlement negotiation</li>
-        <li>Coordination with legal counsel for formal recovery routes</li>
-        <li>Documentation trail suitable for provisioning and audit review</li>
-        <li>Regular status reporting through to closure</li>
-      </ul>
+
+      <div class="eyebrow" style="margin-top:24px;">NPA Recovery Features</div>
+      <div class="about-feature-grid">
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Dedicated Single Case Manager Ownership</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Skip-Tracing &amp; Borrower Contact Recovery</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> One-Time Settlement (OTS) Structuring</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Legal Counsel Handoff (SARFAESI &amp; DRT)</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Provisioning &amp; Audit Trail Documentation</div>
+        <div class="about-feature-item"><span class="about-feature-icon">✓</span> Real-Time Case Progression Reporting</div>
+      </div>
     </div>
-    <div class="reveal panel">
-      <div class="eyebrow">At a Glance</div>
-      <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Account Stage</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">90+ DPD, written-off &amp; NPA-tagged</div>
+
+    <!-- Dark Executive Card -->
+    <div class="reveal">
+      <div class="about-details-card">
+        <div class="eyebrow on-dark" style="margin-bottom:10px;">Desk Specifications</div>
+        <div class="about-details-row">
+          <div class="about-details-item">
+            <div class="about-details-label">Account Bucket</div>
+            <div class="about-details-val">90+ DPD, Written-Off &amp; NPA-Tagged</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Recovery Strategy</div>
+            <div class="about-details-val">Settlement-First, Legal Escalation Second</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Accountability</div>
+            <div class="about-details-val">Single Case Manager Ownership</div>
+          </div>
+          <div class="about-details-item">
+            <div class="about-details-label">Legal Readiness</div>
+            <div class="about-details-val">SARFAESI, DRT &amp; Notice Trail Documentation</div>
+          </div>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Approach</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">Settlement-first, legal-track when needed</div>
+        <div style="margin-top:16px;">
+          <span class="stamp-note verified" style="font-size:10px;">● Documented Audit Trail</span>
         </div>
-        <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Ownership</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">One case manager, start to close</div>
-        </div>
-        <span class="stamp-note verified">● Documented Audit Trail</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- PIPELINE WORKFLOW -->
+<section class="section-dark">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow on-dark">NPA Recovery Pipeline</div>
+      <h2>How stressed accounts move to closure</h2>
+      <p>A disciplined 5-stage recovery pipeline for non-performing assets.</p>
+    </div>
+    
+    <div class="process-pipeline-grid reveal">
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">01</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 01</span>
+        </div>
+        <h4 style="color:var(--dark-text);">NPA File Audit</h4>
+        <p style="color:var(--dark-muted);">Security documents, payment history, and legal notices are audited.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">02</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 02</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Skip Tracing</h4>
+        <p style="color:var(--dark-muted);">Updated addresses, guarantor data, and asset trails are identified.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">03</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 03</span>
+        </div>
+        <h4 style="color:var(--dark-text);">OTS Negotiation</h4>
+        <p style="color:var(--dark-muted);">Negotiated One-Time Settlement terms are presented under credit limits.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">04</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 04</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Legal Escalation</h4>
+        <p style="color:var(--dark-muted);">Coordinated SARFAESI notice or legal proceeding initiated if non-responsive.</p>
+        <span class="pipeline-arrow">→</span>
+      </div>
+
+      <div class="pipeline-card" style="background:var(--ink-card); border-color:var(--ink-line);">
+        <div class="pipeline-header">
+          <span class="pipeline-num">05</span>
+          <span class="pipeline-tag" style="color:var(--brass);">Stage 05</span>
+        </div>
+        <h4 style="color:var(--dark-text);">Recovery Closure</h4>
+        <p style="color:var(--dark-muted);">Recovery amount realized and formal audit closure documentation delivered.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED SERVICES -->
 <section class="section-paper">
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow">Related Services</div>
-      <h2 style="font-size:30px;">Other files in our register</h2>
+      <h2>Other files in our register</h2>
     </div>
     <div class="services-grid reveal">
       <a href="loan-sourcing.php" class="service-card">
@@ -75,6 +152,7 @@ include 'includes/header.php';
         </div>
         <h3>Loan Sourcing Services</h3>
         <p>Feet-on-street and digital sourcing of pre-qualified borrowers, verified end-to-end before the file reaches you.</p>
+        <div><span class="card-badge">Feet-On-Street &amp; Digital</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -87,6 +165,7 @@ include 'includes/header.php';
         </div>
         <h3>Collection Services</h3>
         <p>Structured tele-calling and follow-up on early and mid-bucket accounts to keep portfolios current.</p>
+        <div><span class="card-badge">0–90 DPD Tele-Calling</span></div>
         <span class="go">Read the file →</span>
       </a>
 
@@ -99,19 +178,21 @@ include 'includes/header.php';
         </div>
         <h3>Financial Recovery Solutions</h3>
         <p>Portfolio-level recovery strategy, skip-tracing and settlement structuring for stressed books.</p>
+        <div><span class="card-badge">Skip-Tracing &amp; Strategy</span></div>
         <span class="go">Read the file →</span>
       </a>
     </div>
   </div>
 </section>
 
+<!-- CTA BAND -->
 <div class="cta-band">
   <div class="wrap">
     <div>
-      <h3>Ready to open a file with us?</h3>
-      <p>Talk to a relationship manager about your sourcing or recovery requirement.</p>
+      <h3>Ready to discuss your NPA recovery strategy?</h3>
+      <p>Talk to a senior case manager about stressed portfolio recovery.</p>
     </div>
-    <a href="contact.php" class="btn btn-brass">Get in Touch →</a>
+    <a href="contact.php" class="btn btn-brass">Open NPA Desk Enquiry →</a>
   </div>
 </div>
 
