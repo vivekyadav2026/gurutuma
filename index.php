@@ -28,17 +28,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 include 'includes/header.php';
 ?>
 
-<!-- Full-width banner slider -->
-<div class="banner-slider" aria-roledescription="carousel">
-  <div class="banner-track" id="bannerTrack">
-    <div class="banner-slide is-active"><span class="dot-lead">01</span> <?php echo RBI_COMPLIANT_TEXT; ?> on every case we handle</div>
-    <div class="banner-slide"><span class="dot-lead">02</span> PAN-India field collection and tele-calling network for banks &amp; NBFCs</div>
-    <div class="banner-slide"><span class="dot-lead">03</span> Pre-qualified borrower files sourced and verified end-to-end before handover</div>
-    <div class="banner-slide"><span class="dot-lead">04</span> Dedicated case managers for every NPA account on our register</div>
-  </div>
-  <div class="banner-dots" id="bannerDots"></div>
-</div>
-
 <main>
 
   <!-- HERO -->
@@ -48,8 +37,12 @@ include 'includes/header.php';
         <div class="hero-kicker">Registered Financial Services Firm · New Delhi</div>
         <h1>Every loan file,<br>every recovery case —<br><em>logged, worked, closed.</em></h1>
         <p class="lead">Gurutma Financial Services partners with leading banks and NBFCs to source clean loan business and recover what's owed, through a disciplined, file-numbered process built for accountability at scale.</p>
+        
         <div class="hero-actions">
           <a href="contact.php" class="btn btn-primary">File an Enquiry →</a>
+          <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" class="btn btn-wa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg> Chat on WhatsApp
+          </a>
           <a href="#services" class="btn btn-outline">View Our Services</a>
         </div>
 
@@ -412,7 +405,4 @@ include 'includes/header.php';
 
 </main>
 
-</main>
-
 <?php include 'includes/footer.php'; ?>
-
