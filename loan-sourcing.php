@@ -1,5 +1,7 @@
 <?php
-$pageTitle = "Loan Sourcing Services | Gurutma Financial Services Pvt. Ltd.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = "Loan Sourcing Services | " . COMPANY_NAME;
 $pageDesc = "Feet-on-street and digital loan sourcing, verified end-to-end before the file reaches your credit team.";
 $activePage = "loan-sourcing";
 
@@ -11,8 +13,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="crumb"><a href="index.php">Home</a> / Loan Sourcing Services</div>
     <h1>Loan Sourcing Services</h1>
-    <p style="margin-top:14px; color:var(--dark-muted); font-size:16.5px; max-width:56ch; line-height:1.65;">Pre-qualified, verified borrower files — sourced by a feet-on-street and digital network built for your credit policy.</p>
-    <div class="file-no">CASE FILE NO. LS-01</div>
+    <p>Pre-qualified, verified borrower files — sourced by a feet-on-street and digital network built for your credit policy.</p>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. LS-01 · ACTIVE DESK</div>
   </div>
 </div>
 
@@ -25,7 +27,7 @@ include 'includes/header.php';
       <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
         We work across personal loans, business loans, loan against property, and secured retail products, adapting our sourcing mix to whichever segment your credit policy targets.
       </p>
-      <div class="eyebrow" style="margin-top:40px;">What's Included</div>
+      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
       <ul class="check-list">
         <li>Feet-on-street sourcing team across assigned territories</li>
         <li>Digital lead generation and landing-page management</li>
@@ -40,7 +42,7 @@ include 'includes/header.php';
       <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
         <div>
           <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Avg. Turnaround</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">6 working days, lead to file handover</div>
+          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">5–7 working days, lead to file handover</div>
         </div>
         <div>
           <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Products Covered</div>
@@ -48,7 +50,7 @@ include 'includes/header.php';
         </div>
         <div>
           <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Coverage</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">120+ locations, PAN-India</div>
+          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">PAN-India Sourcing Network</div>
         </div>
         <span class="stamp-note verified">● Verified Before Handover</span>
       </div>

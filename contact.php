@@ -1,6 +1,8 @@
 <?php
-$pageTitle = "Contact & Enquiry | Gurutma Financial Services Pvt. Ltd.";
-$pageDesc = "Get in touch with Gurutma Financial Services for loan sourcing, collection and NPA recovery enquiries.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = "Contact & Enquiry | " . COMPANY_NAME;
+$pageDesc = "Get in touch with " . COMPANY_NAME . " for loan sourcing, collection and NPA recovery enquiries.";
 $activePage = "contact";
 
 $formSubmitted = false;
@@ -28,8 +30,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="crumb"><a href="index.php">Home</a> / Contact &amp; Enquiry</div>
     <h1>Open a Case With Our Team</h1>
-    <p style="margin-top:14px; color:var(--dark-muted); font-size:16.5px; max-width:56ch; line-height:1.65;">Tell us about your portfolio or requirement — a relationship manager reviews every enquiry personally and replies within one business day.</p>
-    <div class="file-no">CASE FILE NO. ENQ-06</div>
+    <p>Tell us about your portfolio or requirement — a relationship manager reviews every enquiry personally and replies within one business day.</p>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. ENQ-06 · ACTIVE DESK</div>
   </div>
 </div>
 
@@ -105,17 +107,17 @@ include 'includes/header.php';
       <div style="display:flex; flex-direction:column; gap:20px; margin-top:28px;">
         <div class="panel" style="padding:24px;">
           <div class="lbl" style="font-family:var(--mono); font-size:11.5px; color:var(--brass-deep); text-transform:uppercase; letter-spacing:.08em; font-weight:600;">Phone &amp; WhatsApp</div>
-          <div style="font-family:var(--serif); font-size:20px; margin-top:6px; font-weight:600;"><a href="tel:+919810000000">+91 98100 00000</a></div>
+          <div style="font-family:var(--serif); font-size:20px; margin-top:6px; font-weight:600;"><a href="tel:<?php echo PHONE_RAW; ?>"><?php echo PHONE_NUMBER; ?></a></div>
         </div>
         <div class="panel" style="padding:24px;">
           <div class="lbl" style="font-family:var(--mono); font-size:11.5px; color:var(--brass-deep); text-transform:uppercase; letter-spacing:.08em; font-weight:600;">Email Address</div>
-          <div style="font-family:var(--serif); font-size:20px; margin-top:6px; font-weight:600;"><a href="mailto:info@gurutmafinancial.com">info@gurutmafinancial.com</a></div>
+          <div style="font-family:var(--serif); font-size:20px; margin-top:6px; font-weight:600;"><a href="mailto:<?php echo EMAIL_ADDRESS; ?>"><?php echo EMAIL_ADDRESS; ?></a></div>
         </div>
         <div class="panel" style="padding:24px;">
           <div class="lbl" style="font-family:var(--mono); font-size:11.5px; color:var(--brass-deep); text-transform:uppercase; letter-spacing:.08em; font-weight:600;">Office Hours</div>
-          <div style="font-family:var(--serif); font-size:20px; margin-top:6px; font-weight:600;">Mon – Sat, 9:30 AM – 6:30 PM IST</div>
+          <div style="font-family:var(--serif); font-size:20px; margin-top:6px; font-weight:600;"><?php echo OFFICE_HOURS; ?></div>
         </div>
-        <a href="https://wa.me/919810000000?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" class="btn btn-outline" style="justify-content:center; border-color:var(--whatsapp); color:var(--verified);">Chat on WhatsApp →</a>
+        <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener" class="btn btn-outline" style="justify-content:center; border-color:var(--whatsapp); color:var(--verified);">Chat on WhatsApp →</a>
       </div>
     </div>
   </div>
@@ -130,15 +132,15 @@ include 'includes/header.php';
     <div class="info-grid reveal">
       <div class="info-block">
         <div class="lbl">Office Address</div>
-        <div class="val">Gurutma Financial Services Pvt. Ltd.<br>Nehru Place, New Delhi – 110019, India</div>
+        <div class="val"><?php echo COMPANY_NAME; ?><br><?php echo OFFICE_ADDRESS; ?></div>
       </div>
       <div class="info-block">
         <div class="lbl">Phone &amp; WhatsApp</div>
-        <div class="val"><a href="tel:+919810000000">+91 98100 00000</a></div>
+        <div class="val"><a href="tel:<?php echo PHONE_RAW; ?>"><?php echo PHONE_NUMBER; ?></a></div>
       </div>
       <div class="info-block">
         <div class="lbl">Email</div>
-        <div class="val"><a href="mailto:info@gurutmafinancial.com">info@gurutmafinancial.com</a></div>
+        <div class="val"><a href="mailto:<?php echo EMAIL_ADDRESS; ?>"><?php echo EMAIL_ADDRESS; ?></a></div>
       </div>
     </div>
     <div class="map-frame reveal">

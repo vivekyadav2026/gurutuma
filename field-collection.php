@@ -1,6 +1,8 @@
 <?php
-$pageTitle = "Field Collection Services | Gurutma Financial Services Pvt. Ltd.";
-$pageDesc = "Trained, verified field agents for doorstep visits, notice serving and on-ground recovery across 120+ locations.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = "Field Collection Services | " . COMPANY_NAME;
+$pageDesc = "Trained, verified field agents for doorstep visits, notice serving and on-ground recovery across India.";
 $activePage = "field-collection";
 
 include 'includes/header.php';
@@ -11,8 +13,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="crumb"><a href="index.php">Home</a> / Field Collection Services</div>
     <h1>Field Collection Services</h1>
-    <p style="margin-top:14px; color:var(--dark-muted); font-size:16.5px; max-width:56ch; line-height:1.65;">Doorstep visits, notice serving and on-ground negotiation from a trained, background-verified field network.</p>
-    <div class="file-no">CASE FILE NO. FC-05</div>
+    <p>Doorstep visits, notice serving and on-ground negotiation from a trained, background-verified field network.</p>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. FC-05 · ACTIVE DESK</div>
   </div>
 </div>
 
@@ -20,12 +22,12 @@ include 'includes/header.php';
   <div class="wrap two-col">
     <div class="reveal">
       <p style="font-size:17px; color:var(--paper-muted); line-height:1.75;">
-        Some accounts only move when someone shows up at the door. Our field collection network covers 120+ locations with trained, background-verified agents who handle doorstep visits, notice serving and on-ground negotiation — professionally, and within the conduct guidelines your compliance team expects.
+        Some accounts only move when someone shows up at the door. Our field collection network covers key urban and regional territories with trained, background-verified agents who handle doorstep visits, notice serving and on-ground negotiation — professionally, and within the conduct guidelines your compliance team expects.
       </p>
       <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
         Every visit is logged with time, outcome and photographic proof of notice delivery where applicable, so there's a clear record of every doorstep interaction.
       </p>
-      <div class="eyebrow" style="margin-top:40px;">What's Included</div>
+      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
       <ul class="check-list">
         <li>Trained, background-verified field agents</li>
         <li>Doorstep visits and in-person negotiation</li>
@@ -39,8 +41,8 @@ include 'includes/header.php';
       <div class="eyebrow">At a Glance</div>
       <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
         <div>
-          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Network</div>
-          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">120+ locations, PAN-India</div>
+          <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Network Coverage</div>
+          <div style="font-family:var(--serif); font-size:18px; margin-top:4px; font-weight:600;">PAN-India Field &amp; Desk Network</div>
         </div>
         <div>
           <div style="font-family:var(--mono); font-size:11.5px; color:var(--paper-muted); text-transform:uppercase; font-weight:600;">Agent Vetting</div>

@@ -1,6 +1,8 @@
 <?php
-$pageTitle = "Gurutma Financial Services Pvt. Ltd. | Loan Sourcing, Collection & NPA Recovery";
-$pageDesc = "Gurutma Financial Services Pvt. Ltd. — trusted loan sourcing, collection, NPA recovery and field collection services for banks and NBFCs across India.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = COMPANY_NAME . " | Loan Sourcing, Collection & NPA Recovery";
+$pageDesc = COMPANY_NAME . " — trusted loan sourcing, collection, NPA recovery and field collection services for banks and NBFCs across India.";
 $activePage = "home";
 
 $formSubmitted = false;
@@ -29,9 +31,9 @@ include 'includes/header.php';
 <!-- Full-width banner slider -->
 <div class="banner-slider" aria-roledescription="carousel">
   <div class="banner-track" id="bannerTrack">
-    <div class="banner-slide is-active"><span class="dot-lead">01</span> RBI-aligned recovery protocol on every case we handle</div>
-    <div class="banner-slide"><span class="dot-lead">02</span> PAN-India field collection network across 120+ locations</div>
-    <div class="banner-slide"><span class="dot-lead">03</span> Loan files sourced, verified and disbursed in an average of 6 days</div>
+    <div class="banner-slide is-active"><span class="dot-lead">01</span> <?php echo RBI_COMPLIANT_TEXT; ?> on every case we handle</div>
+    <div class="banner-slide"><span class="dot-lead">02</span> PAN-India field collection and tele-calling network for banks &amp; NBFCs</div>
+    <div class="banner-slide"><span class="dot-lead">03</span> Pre-qualified borrower files sourced and verified end-to-end before handover</div>
     <div class="banner-slide"><span class="dot-lead">04</span> Dedicated case managers for every NPA account on our register</div>
   </div>
   <div class="banner-dots" id="bannerDots"></div>
@@ -45,24 +47,27 @@ include 'includes/header.php';
       <div class="reveal in">
         <div class="hero-kicker">Registered Financial Services Firm · New Delhi</div>
         <h1>Every loan file,<br>every recovery case —<br><em>logged, worked, closed.</em></h1>
-        <p class="lead">Gurutma Financial Services partners with banks and NBFCs to source clean loan business and recover what's owed, through a disciplined, file-numbered process built for accountability at scale.</p>
+        <p class="lead">Gurutma Financial Services partners with leading banks and NBFCs to source clean loan business and recover what's owed, through a disciplined, file-numbered process built for accountability at scale.</p>
         <div class="hero-actions">
           <a href="contact.php" class="btn btn-primary">File an Enquiry →</a>
           <a href="#services" class="btn btn-outline">View Our Services</a>
         </div>
-        <div class="hero-stats">
-          <div><b>12+</b><span>Years in Practice</span></div>
-          <div><b>₹840Cr+</b><span>Portfolio Serviced</span></div>
-          <div><b>120+</b><span>Field Locations</span></div>
-          <div><b>96%</b><span>Client Retention</span></div>
+
+        <!-- Verified Feature Pillars (Replacing Numerical Stats) -->
+        <div class="hero-highlights">
+          <div class="highlight-item"><span class="highlight-icon">✓</span> <span>RBI Fair Practices Code Compliant</span></div>
+          <div class="highlight-item"><span class="highlight-icon">✓</span> <span>Case-Numbered Audit Trail &amp; MIS</span></div>
+          <div class="highlight-item"><span class="highlight-icon">✓</span> <span>Trained &amp; Verified Field Agents</span></div>
+          <div class="highlight-item"><span class="highlight-icon">✓</span> <span>Dedicated Relationship Desk</span></div>
         </div>
       </div>
+      
       <div class="seal-wrap reveal in">
         <div class="seal">
           <div class="seal-ring-text">
             <svg viewBox="0 0 200 200">
               <defs><path id="circlePath" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0"/></defs>
-              <text><textPath href="#circlePath">GURUTMA FINANCIAL SERVICES · EST. 2013 · NEW DELHI · </textPath></text>
+              <text><textPath href="#circlePath">GURUTMA FINANCIAL SERVICES · EST. <?php echo COMPANY_ESTABLISHED; ?> · NEW DELHI · </textPath></text>
             </svg>
           </div>
           <div class="seal-core">
@@ -98,11 +103,11 @@ include 'includes/header.php';
         <div style="display:flex; flex-direction:column; gap:18px; margin-top:8px;">
           <div>
             <div style="font-family:var(--mono); font-size:11px; color:var(--paper-muted); text-transform:uppercase; letter-spacing:.08em;">Entity</div>
-            <div style="font-family:var(--serif); font-size:17px; margin-top:4px; font-weight:600;">Gurutma Financial Services Pvt. Ltd.</div>
+            <div style="font-family:var(--serif); font-size:17px; margin-top:4px; font-weight:600;"><?php echo COMPANY_NAME; ?></div>
           </div>
           <div>
             <div style="font-family:var(--mono); font-size:11px; color:var(--paper-muted); text-transform:uppercase; letter-spacing:.08em;">Registered Office</div>
-            <div style="font-family:var(--serif); font-size:17px; margin-top:4px; font-weight:600;">Nehru Place, New Delhi – 110019, India</div>
+            <div style="font-family:var(--serif); font-size:17px; margin-top:4px; font-weight:600;"><?php echo OFFICE_ADDRESS; ?></div>
           </div>
           <div>
             <div style="font-family:var(--mono); font-size:11px; color:var(--paper-muted); text-transform:uppercase; letter-spacing:.08em;">Practice Areas</div>
@@ -227,7 +232,7 @@ include 'includes/header.php';
         <div class="feature-card">
           <div class="feature-card-num">3</div>
           <h4>PAN-India reach</h4>
-          <p>Field teams across 120+ locations mean doorstep visits happen on schedule, not on excuses.</p>
+          <p>Field teams available across major locations mean doorstep visits happen on schedule, not on excuses.</p>
         </div>
         <div class="feature-card">
           <div class="feature-card-num">4</div>
@@ -237,7 +242,7 @@ include 'includes/header.php';
         <div class="feature-card">
           <div class="feature-card-num">5</div>
           <h4>Trained personnel</h4>
-          <p>Every field and tele-calling agent is background-verified and certified before a file is assigned.</p>
+          <p>Every field and tele-calling agent is background-verified and conduct-trained before a file is assigned.</p>
         </div>
         <div class="feature-card">
           <div class="feature-card-num">6</div>
@@ -377,15 +382,15 @@ include 'includes/header.php';
       <div class="info-grid reveal">
         <div class="info-block">
           <div class="lbl">Office Address</div>
-          <div class="val">Gurutma Financial Services Pvt. Ltd.<br>Nehru Place, New Delhi – 110019, India</div>
+          <div class="val"><?php echo COMPANY_NAME; ?><br><?php echo OFFICE_ADDRESS; ?></div>
         </div>
         <div class="info-block">
           <div class="lbl">Phone &amp; WhatsApp</div>
-          <div class="val"><a href="tel:+919810000000">+91 98100 00000</a></div>
+          <div class="val"><a href="tel:<?php echo PHONE_RAW; ?>"><?php echo PHONE_NUMBER; ?></a></div>
         </div>
         <div class="info-block">
           <div class="lbl">Email</div>
-          <div class="val"><a href="mailto:info@gurutmafinancial.com">info@gurutmafinancial.com</a></div>
+          <div class="val"><a href="mailto:<?php echo EMAIL_ADDRESS; ?>"><?php echo EMAIL_ADDRESS; ?></a></div>
         </div>
       </div>
       <div class="map-frame reveal">
@@ -407,29 +412,7 @@ include 'includes/header.php';
 
 </main>
 
-<script>
-  // Banner slider script
-  (function(){
-    const slides = document.querySelectorAll('.banner-slide');
-    const dotsWrap = document.getElementById('bannerDots');
-    if (!slides.length || !dotsWrap) return;
-    let idx = 0;
-    slides.forEach((_, i) => {
-      const d = document.createElement('button');
-      d.setAttribute('aria-label', 'Show announcement ' + (i+1));
-      if (i === 0) d.classList.add('active');
-      d.addEventListener('click', () => show(i));
-      dotsWrap.appendChild(d);
-    });
-    function show(n){
-      slides[idx].classList.remove('is-active');
-      if (dotsWrap.children[idx]) dotsWrap.children[idx].classList.remove('active');
-      idx = (n + slides.length) % slides.length;
-      slides[idx].classList.add('is-active');
-      if (dotsWrap.children[idx]) dotsWrap.children[idx].classList.add('active');
-    }
-    setInterval(() => show(idx + 1), 5000);
-  })();
-</script>
+</main>
 
 <?php include 'includes/footer.php'; ?>
+

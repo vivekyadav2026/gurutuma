@@ -1,5 +1,7 @@
 <?php
-$pageTitle = "Financial Recovery Solutions | Gurutma Financial Services Pvt. Ltd.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = "Financial Recovery Solutions | " . COMPANY_NAME;
 $pageDesc = "Portfolio-level recovery strategy, skip-tracing and settlement structuring for stressed loan books.";
 $activePage = "financial-recovery";
 
@@ -11,8 +13,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="crumb"><a href="index.php">Home</a> / Financial Recovery Solutions</div>
     <h1>Financial Recovery Solutions</h1>
-    <p style="margin-top:14px; color:var(--dark-muted); font-size:16.5px; max-width:56ch; line-height:1.65;">Portfolio-level strategy for stressed books — segmentation, skip-tracing and settlement structuring, not one-size-fits-all calling.</p>
-    <div class="file-no">CASE FILE NO. FRS-04</div>
+    <p>Portfolio-level strategy for stressed books — segmentation, skip-tracing and settlement structuring, not one-size-fits-all calling.</p>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. FRS-04 · ACTIVE DESK</div>
   </div>
 </div>
 
@@ -25,7 +27,7 @@ include 'includes/header.php';
       <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
         That includes skip-tracing borrowers who've become unreachable, structuring settlement offers your team can approve quickly, and giving you a clear view of which segments of the book are worth pursuing versus writing off.
       </p>
-      <div class="eyebrow" style="margin-top:40px;">What's Included</div>
+      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
       <ul class="check-list">
         <li>Portfolio segmentation and recovery-priority scoring</li>
         <li>Skip-tracing for untraceable or relocated borrowers</li>

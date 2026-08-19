@@ -1,5 +1,7 @@
 <?php
-$pageTitle = "NPA Collection & Recovery | Gurutma Financial Services Pvt. Ltd.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = "NPA Collection & Recovery | " . COMPANY_NAME;
 $pageDesc = "Specialist handling of non-performing accounts, from negotiated settlement to legal-track recovery.";
 $activePage = "npa-recovery";
 
@@ -11,8 +13,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="crumb"><a href="index.php">Home</a> / NPA Collection &amp; Recovery</div>
     <h1>NPA Collection &amp; Recovery</h1>
-    <p style="margin-top:14px; color:var(--dark-muted); font-size:16.5px; max-width:56ch; line-height:1.65;">A dedicated case manager for every non-performing account — negotiated settlement first, legal-track recovery when it's the right call.</p>
-    <div class="file-no">CASE FILE NO. NPA-03</div>
+    <p>A dedicated case manager for every non-performing account — negotiated settlement first, legal-track recovery when it's the right call.</p>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. NPA-03 · ACTIVE DESK</div>
   </div>
 </div>
 
@@ -26,7 +28,7 @@ include 'includes/header.php';
       <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
         We work alongside your empanelled legal counsel where formal recovery routes — including SARFAESI action or DRT proceedings — are the right path, while pursuing negotiated settlement wherever it serves the account faster.
       </p>
-      <div class="eyebrow" style="margin-top:40px;">What's Included</div>
+      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
       <ul class="check-list">
         <li>Dedicated case manager per NPA account</li>
         <li>Borrower tracing and contact re-establishment</li>

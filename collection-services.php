@@ -1,5 +1,7 @@
 <?php
-$pageTitle = "Collection Services | Gurutma Financial Services Pvt. Ltd.";
+require_once __DIR__ . '/includes/config.php';
+
+$pageTitle = "Collection Services | " . COMPANY_NAME;
 $pageDesc = "Structured tele-calling and multi-channel follow-up on early and mid-bucket accounts to keep portfolios current.";
 $activePage = "collection-services";
 
@@ -11,8 +13,8 @@ include 'includes/header.php';
   <div class="wrap">
     <div class="crumb"><a href="index.php">Home</a> / Collection Services</div>
     <h1>Collection Services</h1>
-    <p style="margin-top:14px; color:var(--dark-muted); font-size:16.5px; max-width:56ch; line-height:1.65;">Early and mid-bucket follow-up across voice, SMS, email and IVR — built to keep accounts current, not just contacted.</p>
-    <div class="file-no">CASE FILE NO. CS-02</div>
+    <p>Early and mid-bucket follow-up across voice, SMS, email and IVR — built to keep accounts current, not just contacted.</p>
+    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. CS-02 · ACTIVE DESK</div>
   </div>
 </div>
 
@@ -25,7 +27,7 @@ include 'includes/header.php';
       <p style="margin-top:16px; font-size:17px; color:var(--paper-muted); line-height:1.75;">
         Every call is logged against the account, every promise-to-pay is tracked to its due date, and your team gets a bucket-wise report without having to ask for one.
       </p>
-      <div class="eyebrow" style="margin-top:40px;">What's Included</div>
+      <div class="eyebrow" style="margin-top:28px;">What's Included</div>
       <ul class="check-list">
         <li>Trained tele-calling desk for 0–30, 31–60 and 61–90 DPD buckets</li>
         <li>Multi-channel reminders — call, SMS, email and IVR</li>
