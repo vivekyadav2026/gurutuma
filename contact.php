@@ -26,15 +26,57 @@ include 'includes/header.php';
 
 <main>
 
-<div class="page-head">
-  <div class="wrap">
-    <div class="crumb"><a href="index.php">Home</a> / Contact &amp; Enquiry</div>
-    <h1>Open a Case With Our Team</h1>
-    <p>Tell us about your portfolio or requirement — a relationship manager reviews every enquiry personally and replies within one business day.</p>
-    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. ENQ-06 · ACTIVE CONTACT DESK</div>
-  </div>
-</div>
+<!-- PREMIUM EXECUTIVE HERO BANNER -->
+<section class="about-hero-banner">
+  <div class="wrap about-hero-grid">
+    <div class="about-hero-text reveal">
+      <div class="crumb"><a href="index.php">Home</a> / Contact &amp; Enquiry</div>
+      <div class="file-no" style="margin-bottom:14px;"><span class="file-no-dot"></span> CASE FILE NO. ENQ-06 · ACTIVE CONTACT DESK</div>
+      <h1>Open a Case With Our <em>Relationship Management Team</em></h1>
+      <p class="about-hero-lead">
+        Tell us about your portfolio or service requirement — a dedicated relationship manager reviews every enquiry personally and responds within 1 business day.
+      </p>
+      
+      <div class="about-hero-pills">
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          SLA &lt; 1 Business Day
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          🔒 256-bit Confidential
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          Direct WhatsApp Desk
+        </span>
+      </div>
 
+      <div class="about-hero-actions">
+        <a href="#enquiry-form" class="btn btn-brass">Fill Case Enquiry Form ↓</a>
+        <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20connect%20with%20Gurutma%20Desk" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg> Instant WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT HERO MEDIA SHOWCASE -->
+    <div class="about-hero-media reveal">
+      <div class="hero-image-card">
+        <img src="assets/images/relationship-manager.png" alt="Corporate Relationship Manager Desk" loading="eager">
+        <div class="hero-image-overlay">
+          <div>
+            <div style="font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--brass);">RELATIONSHIP DESK</div>
+            <div style="font-family:var(--serif); font-size:16px; font-weight:700; color:#FFFFFF;">Institutional Consultation</div>
+          </div>
+          <span class="stamp-note verified" style="padding:3px 8px; font-size:10px;">● SLA &lt; 1 Day</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN CONTENT SECTION -->
 <section class="section-deep">
   <div class="wrap two-col" style="align-items:center;">
     <!-- Dark Executive Form Desk -->

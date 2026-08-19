@@ -1,6 +1,6 @@
 /* ==========================================================================
    Gurutma Financial Services — Premium Corporate Design System
-   Theme: Executive Financial Ledger, Mobile Top-Bar Responsiveness Fix
+   Theme: Executive Financial Ledger, Executive About Us Banner Styling
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Zilla+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
@@ -103,6 +103,99 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
     var(--ledger-line) 39px,
     var(--ledger-line) 40px
   );
+}
+
+/* ---------- Executive About Us Hero Banner ---------- */
+.about-hero-banner {
+  background: radial-gradient(ellipse at top right, rgba(212, 160, 71, 0.18), transparent 70%), linear-gradient(135deg, #061310 0%, #0F251E 60%, #081713 100%);
+  color: var(--dark-text);
+  padding: 44px 0 40px;
+  border-bottom: 3px solid var(--brass);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  text-align: left;
+}
+.about-hero-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 39px,
+    rgba(255, 255, 255, 0.03) 39px,
+    rgba(255, 255, 255, 0.03) 40px
+  );
+  pointer-events: none;
+}
+.about-hero-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 32px;
+  align-items: center;
+}
+.about-hero-text h1 {
+  font-size: clamp(28px, 3.8vw, 46px);
+  color: #FFFFFF;
+  line-height: 1.15;
+  font-weight: 700;
+  text-align: left;
+}
+.about-hero-text h1 em {
+  font-style: italic;
+  color: var(--brass);
+  background: linear-gradient(120deg, #F5D796, var(--brass));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-hero-lead {
+  margin-top: 14px;
+  font-size: 16.5px;
+  color: var(--dark-muted);
+  line-height: 1.6;
+  max-width: 56ch;
+  text-align: left;
+}
+.about-hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+.hero-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--ink-line);
+  color: var(--dark-text);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.hero-pill svg { color: var(--brass); }
+
+.about-hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .about-hero-banner { padding: 30px 0 26px; }
+  .about-hero-grid { grid-template-columns: 1fr; gap: 20px; }
+}
+@media (max-width: 480px) {
+  .about-hero-text h1 { font-size: 24px; }
+  .about-hero-lead { font-size: 14px; margin-top: 10px; }
+  .about-hero-pills { gap: 6px; margin-top: 14px; }
+  .hero-pill { font-size: 10.5px; padding: 4px 10px; }
+  .about-hero-actions { flex-direction: column; width: 100%; gap: 8px; }
+  .about-hero-actions .btn { width: 100%; justify-content: center; }
 }
 
 /* ---------- Redesigned Process Overview Pipeline Grid ---------- */

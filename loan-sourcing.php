@@ -9,22 +9,64 @@ include 'includes/header.php';
 ?>
 
 <main>
-<div class="page-head">
-  <div class="wrap">
-    <div class="crumb"><a href="index.php">Home</a> / Loan Sourcing Services</div>
-    <h1>Loan Sourcing Services</h1>
-    <p>Pre-qualified, verified borrower files — sourced by a feet-on-street and digital network built for your credit policy.</p>
-    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. LS-01 · ACTIVE SOURCING DESK</div>
-  </div>
-</div>
 
+<!-- PREMIUM EXECUTIVE HERO BANNER -->
+<section class="about-hero-banner">
+  <div class="wrap about-hero-grid">
+    <div class="about-hero-text reveal">
+      <div class="crumb"><a href="index.php">Home</a> / Loan Sourcing Services</div>
+      <div class="file-no" style="margin-bottom:14px;"><span class="file-no-dot"></span> CASE FILE NO. LS-01 · ACTIVE SOURCING DESK</div>
+      <h1>Pre-Qualified Loan Sourcing <em>With End-to-End Verification</em></h1>
+      <p class="about-hero-lead">
+        Pre-screened borrower files sourced by a combined feet-on-street and digital network — fully verified before reaching your credit underwriting desk.
+      </p>
+      
+      <div class="about-hero-pills">
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          5–7 Days SLA
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          Personal, Business &amp; LAP
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          PAN-India Coverage
+        </span>
+      </div>
+
+      <div class="about-hero-actions">
+        <a href="contact.php" class="btn btn-brass">Open Sourcing Enquiry →</a>
+        <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20Loan%20Sourcing%20Services" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg> Direct WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT HERO MEDIA SHOWCASE -->
+    <div class="about-hero-media reveal">
+      <div class="hero-image-card">
+        <img src="assets/images/loan-sourcing.png" alt="Pre-qualified loan sourcing application analysis" loading="eager">
+        <div class="hero-image-overlay">
+          <div>
+            <div style="font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--brass);">SOURCING DESK</div>
+            <div style="font-family:var(--serif); font-size:16px; font-weight:700; color:#FFFFFF;">Pre-Screened Applications</div>
+          </div>
+          <span class="stamp-note verified" style="padding:3px 8px; font-size:10px;">● 100% Verified</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN CONTENT SECTION -->
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
-      <div class="service-image-panel">
-        <img src="assets/images/loan-sourcing.png" alt="Pre-qualified loan sourcing application analysis" loading="lazy">
-      </div>
-      <p style="font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
+      <div class="eyebrow">Desk Overview</div>
+      <h2 style="font-size:clamp(24px,3vw,34px); color:var(--ink);">Quality Borrower Leads Sourced to Your Credit Criteria</h2>
+      <p style="margin-top:14px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Growing a loan book means putting more qualified applications in front of your credit team — without lowering the bar on quality. Our loan sourcing desk runs a feet-on-street network alongside digital lead channels, so every file that reaches you has already cleared identity, income and bureau checks.
       </p>
       <p style="margin-top:12px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">

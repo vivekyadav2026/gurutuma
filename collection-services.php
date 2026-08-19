@@ -9,22 +9,64 @@ include 'includes/header.php';
 ?>
 
 <main>
-<div class="page-head">
-  <div class="wrap">
-    <div class="crumb"><a href="index.php">Home</a> / Collection Services</div>
-    <h1>Collection Services</h1>
-    <p>Early and mid-bucket follow-up across voice, SMS, email and IVR — built to keep accounts current, not just contacted.</p>
-    <div class="file-no"><span class="file-no-dot"></span> CASE FILE NO. CS-02 · ACTIVE DESK</div>
-  </div>
-</div>
 
+<!-- PREMIUM EXECUTIVE HERO BANNER -->
+<section class="about-hero-banner">
+  <div class="wrap about-hero-grid">
+    <div class="about-hero-text reveal">
+      <div class="crumb"><a href="index.php">Home</a> / Collection Services</div>
+      <div class="file-no" style="margin-bottom:14px;"><span class="file-no-dot"></span> CASE FILE NO. CS-02 · ACTIVE TELE-COLLECTION DESK</div>
+      <h1>Early &amp; Mid-Bucket Collection <em>With Multi-Channel Outreach</em></h1>
+      <p class="about-hero-lead">
+        Structured tele-calling and automated reminders across voice, SMS, email, and IVR — engineered to normalize accounts before they slip into stressed buckets.
+      </p>
+      
+      <div class="about-hero-pills">
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          0–90 DPD Buckets
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          Predictive Voice &amp; IVR
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          RBI Code Compliant
+        </span>
+      </div>
+
+      <div class="about-hero-actions">
+        <a href="contact.php" class="btn btn-brass">Open Collection Desk Enquiry →</a>
+        <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20Collection%20Services" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg> Direct WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT HERO MEDIA SHOWCASE -->
+    <div class="about-hero-media reveal">
+      <div class="hero-image-card">
+        <img src="assets/images/collection-operations.png" alt="Corporate Tele-calling &amp; Collection Desk Operations" loading="eager">
+        <div class="hero-image-overlay">
+          <div>
+            <div style="font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--brass);">COLLECTION OPERATIONS</div>
+            <div style="font-family:var(--serif); font-size:16px; font-weight:700; color:#FFFFFF;">0–90 DPD Tele-Calling Desk</div>
+          </div>
+          <span class="stamp-note verified" style="padding:3px 8px; font-size:10px;">● RBI Compliant</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN CONTENT SECTION -->
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
-      <div class="service-image-panel">
-        <img src="assets/images/collection-operations.png" alt="Corporate Tele-calling & Collection Desk Operations" loading="lazy">
-      </div>
-      <p style="font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
+      <div class="eyebrow">Desk Overview</div>
+      <h2 style="font-size:clamp(24px,3vw,34px); color:var(--ink);">Reliable Follow-Up to Keep Loan Portfolios Current</h2>
+      <p style="margin-top:14px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         Most accounts don't need a recovery drive — they need a reliable, well-timed nudge. Our collection desk manages early and mid-bucket follow-up across calls, SMS, email and IVR, keeping accounts current before they ever reach a stressed bucket.
       </p>
       <p style="margin-top:12px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">

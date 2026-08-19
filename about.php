@@ -10,22 +10,62 @@ include 'includes/header.php';
 
 <main>
 
-<!-- PAGE HEAD BANNER -->
-<div class="page-head">
-  <div class="wrap">
-    <div class="crumb"><a href="index.php">Home</a> / About Us</div>
-    <h1>About Gurutma Financial Services</h1>
-    <p><?php echo COMPANY_ABOUT_TEXT; ?></p>
-    <div class="file-no"><span class="file-no-dot"></span> GST REGISTRATION: <?php echo GST_NUMBER; ?> · REGISTERED CORPORATE PROFILE</div>
+<!-- PREMIUM EXECUTIVE ABOUT US HERO BANNER -->
+<section class="about-hero-banner">
+  <div class="wrap about-hero-grid">
+    <div class="about-hero-text reveal">
+      <div class="crumb"><a href="index.php">Home</a> / About Us</div>
+      <div class="file-no" style="margin-bottom:14px;"><span class="file-no-dot"></span> GST REG: <?php echo GST_NUMBER; ?> · REGISTERED FIRM PROFILE</div>
+      <h1>Empowering Financial Growth With <em>Transparent Solutions</em></h1>
+      <p class="about-hero-lead">
+        Dedicated to bridging the gap between individuals, entrepreneurs, and financial institutions through reliable, customer-centric financial services and compliant portfolio solutions.
+      </p>
+      
+      <div class="about-hero-pills">
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          GST Reg: <?php echo GST_NUMBER; ?>
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          RBI Code Compliant
+        </span>
+        <span class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          Reg Date: 2 June 2026
+        </span>
+      </div>
+
+      <div class="about-hero-actions">
+        <a href="contact.php" class="btn btn-brass">Open Partner Enquiry →</a>
+        <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Gurutma%20Financial%20Services" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.44.79 3.06 1.2 4.72 1.2h.02c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13h-.01c-1.47 0-2.91-.4-4.17-1.14l-.3-.18-3.12.82.83-3.04-.2-.31a8.15 8.15 0 0 1-1.25-4.37c0-4.51 3.67-8.18 8.19-8.18a8.13 8.13 0 0 1 5.78 2.4 8.13 8.13 0 0 1 2.4 5.79c0 4.51-3.68 8.18-8.15 8.18z"/></svg> Direct WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT HERO MEDIA SHOWCASE -->
+    <div class="about-hero-media reveal">
+      <div class="hero-image-card">
+        <img src="assets/images/hero-office.png" alt="Gurutma Financial Services Corporate Headquarters" loading="eager">
+        <div class="hero-image-overlay">
+          <div>
+            <div style="font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--brass);">REGISTERED HEADQUARTERS</div>
+            <div style="font-family:var(--serif); font-size:16px; font-weight:700; color:#FFFFFF;">Azamgarh, Uttar Pradesh</div>
+          </div>
+          <span class="stamp-note verified" style="padding:3px 8px; font-size:10px;">● Registered Entity</span>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- SECTION 1: FIRM OVERVIEW & HERITAGE -->
 <section class="section-paper ruled">
   <div class="wrap two-col">
     <div class="reveal">
       <div class="eyebrow">Company Overview</div>
-      <h2 style="font-size:clamp(26px,3vw,38px); color:var(--ink);">Empowering Goals Through Transparent Financial Solutions</h2>
+      <h2 style="font-size:clamp(26px,3vw,38px); color:var(--ink);">Bridging the Gap in Financial Services</h2>
       <p style="margin-top:14px; font-size:16.5px; color:var(--paper-muted); line-height:1.7;">
         <strong>Gurutma Financial Services Pvt. Ltd.</strong> is a dedicated financial services company focused on providing reliable, transparent, and customer-centric financial solutions to individuals, entrepreneurs, and businesses.
       </p>
@@ -50,17 +90,6 @@ include 'includes/header.php';
 
     <!-- Corporate Particulars Card -->
     <div class="reveal">
-      <div class="hero-image-card" style="margin-bottom:20px;">
-        <img src="assets/images/hero-office.png" alt="Gurutma Financial Services Executive Office" loading="eager">
-        <div class="hero-image-overlay">
-          <div>
-            <div style="font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:.1em; color:var(--brass);">REGISTERED HEADQUARTERS</div>
-            <div style="font-family:var(--serif); font-size:16px; font-weight:700; color:#FFFFFF;">Azamgarh, Uttar Pradesh</div>
-          </div>
-          <span class="stamp-note verified" style="padding:3px 8px; font-size:10px;">● Registered Entity</span>
-        </div>
-      </div>
-
       <div class="about-details-card">
         <div class="eyebrow on-dark" style="margin-bottom:10px;">Corporate Registration Details</div>
         <div class="about-details-row">
